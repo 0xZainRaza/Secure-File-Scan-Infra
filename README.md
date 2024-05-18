@@ -24,8 +24,8 @@ To deploy the web application infrastructure on AWS, follow these steps:
    terraform init
    ```
 4. **Review and Customize Configuration:**
-- Review the `main.tf` file to understand the infrastructure components being deployed.
-- Customize the configuration variables in `variables.tf` as per your requirements.
+   - Review the `main.tf` file to understand the infrastructure components being deployed.
+   - Customize the configuration variables in `variables.tf` as per your requirements.
 
 5. **Deploy the Infrastructure:**
 
@@ -33,8 +33,8 @@ To deploy the web application infrastructure on AWS, follow these steps:
    terraform apply
    ```
 6. **Access the Web Application:**
-- Once the deployment is complete, you will receive the public IP address of the EC2 instance.
-- Access your web application by navigating to the provided IP address in your web browser.
+   - Once the deployment is complete, you will receive the public IP address of the EC2 instance.
+   - Access your web application by navigating to the provided IP address in your web browser.
 
 ## Cleanup
 
