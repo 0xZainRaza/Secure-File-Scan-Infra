@@ -25,8 +25,7 @@ To deploy the web application infrastructure on AWS, follow these steps:
    ```
 4. **Review and Customize Configuration:**
    - Review the `main.tf` file to understand the infrastructure components being deployed.
-   - Customize the configuration variables in `variables.tf` as per your requirements.
-
+     
 5. **Deploy the Infrastructure:**
 
    ```bash
