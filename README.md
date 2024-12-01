@@ -15,7 +15,7 @@ To deploy the web application infrastructure on AWS, follow these steps:
 2. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/0xZainRaza/Cloud-Web-App
+    git clone https://github.com/0xZainRaza/Secure-File-Scan-Infra
     cd Cloud-Web-App
     ```
 
