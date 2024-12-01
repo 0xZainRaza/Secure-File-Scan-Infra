@@ -16,7 +16,7 @@ To deploy the web application infrastructure on AWS, follow these steps:
 
     ```bash
     git clone https://github.com/0xZainRaza/Secure-File-Scan-Infra
-    cd Cloud-Web-App
+    cd Secure-File-Scan-Infra
     ```
 
 3. **Initialize Terraform:**
