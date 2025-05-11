@@ -133,7 +133,7 @@ resource "aws_instance" "foo" {
                 #!/bin/bash
     
                 sudo apt-get update
-                sudo apt-get install -y git docker.io
+                sudo apt-get install -y git docker.io docker-compose
     
                 # Clone the Git repository
                 git clone https://github.com/0xZainRaza/Secure-File-Scan /home/ubuntu/Secure-File-Scan
@@ -142,10 +142,10 @@ resource "aws_instance" "foo" {
                 cd /home/ubuntu/Secure-File-Scan
     
                 # Build the Docker image
-                sudo docker build -t secure_file_scan .
+                sudo docker build -t my-secure-file-scan .
     
                 # Run the Docker container
-                sudo docker run -d -p 443:443 --name secure_file_scan_container secure_file_scan
+                sudo docker-compose up -d 
                  EOF
       tags = {
         Name = "Web-server"
